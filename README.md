@@ -3,12 +3,12 @@ This respository contains historical information about work on Sharealedger.org.
 
 The work has been promoted to a separate Open Source Project visible at https://github.com/sharealedger-org/sharealedger and at http://sharealedger.org.
 
- #Scalable Architecture for Financial Reporting
+# Scalable Architecture for Financial Reporting
 
 Much of the work of creating ledgers at scale comes from IBM's Scalable Architecture for Financial Reporting (SAFR).  You can read more about it here:  http://www.redbooks.ibm.com/abstracts/REDP4599.html?Open
 
 
- #Really Simple Commerce
+# Really Simple Commerce
 
 The earliest work is documented in https://github.com/KipTwitchell/VAPostAnalysisRSCDemo
 
@@ -32,7 +32,7 @@ It combines payment, shared ledgers, democratization of credit creation, social 
 
 The system does not use cell phone values, and there are no edits on the input data.  The state of each cell phone must be waiting for response from the server before the server sends that response or the system hangs.  The system uses named pipes to communicate to each other in their respective roles.  No two terminal can share the same role at the same time.  The data in this part of the system is not connected to the VA data used in the other two parts of the system.
 
- #z/OS Related Projects
+# z/OS Related Projects
 
 SAFR's exploitation of z/OS has led to other POC efforts, which are not yet released as Open Source. The use of more modern languages on z can be read about in this blog entry: https://ledgerlearning.com/2020/03/26/scala-on-z/
 
