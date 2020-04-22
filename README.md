@@ -36,4 +36,4 @@ The system does not use cell phone values, and there are no edits on the input d
 
 SAFR's exploitation of z/OS has led to other POC efforts, which are not yet released as Open Source. The use of more modern languages on z can be read about in this blog entry: https://ledgerlearning.com/2020/03/26/scala-on-z/
 
-Other proejects will be released with time.    
+Other projects will be released with time.    
